@@ -692,3 +692,37 @@ button{
     background-color: gray;
     border-radius: 0px 10px 10px 0px;
 }
+
+.progres{
+    display: flex;
+    justify-content: flex-start;
+    width: 80vw;
+    height: auto;
+    background: rgba(0, 0, 0, .5);
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+.progres i{
+    color: #FFD700;
+    font-size: 5em;
+    margin-left: .5%;
+}
+
+.evenimente{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    height: auto;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    color: white;
+}
+
+.evenimente i{
+    color: #FFD700;
+    font-size: 2.5em;
+}
