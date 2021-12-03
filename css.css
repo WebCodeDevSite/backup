@@ -27,6 +27,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-direction: row;
 }
 
 .Logo{
@@ -69,13 +70,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
 }
 
 .case{
     width: auto;
     height: auto;
-    margin: 20px;
-    padding: 20px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -326,9 +327,11 @@ button{
     justify-content: space-between;
     align-items: center;
     margin-top: 40px;
+    margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
-    width: 95vw;
+    flex-direction: row;
+    width: 90vw;
     border-radius: 20px;
     background: rgba(0, 0, 0, .5);
 }
@@ -405,6 +408,7 @@ button{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: row;
     width: 80vw;
     height: auto;
     margin-left: auto;
@@ -574,6 +578,7 @@ button{
 
 .pozeexemple{
     display: flex;
+    flex-direction: row;
     height: auto;
     width: 80%;
     justify-content: space-around;
@@ -588,7 +593,7 @@ button{
 
 .descriereSite{
     display: flex;
-    width: 80vw;
+    width: 90vw;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
@@ -725,4 +730,45 @@ button{
 .evenimente i{
     color: #FFD700;
     font-size: 2.5em;
+}
+
+.imgmare{
+    height: 400px;
+    width: 800px;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .mainDiv{
+        flex-direction: column;
+    }    
+
+    .claseEditor{
+        flex-direction: column;
+    }
+    
+    .imgmare{
+        height: 200px;
+        width: 400px;
+    }
+
+    .followers{
+        width: 90vw;
+    }
+
+    .freestuff{
+        flex-direction: column;
+    }
+
+    .variante{
+        flex-direction: column;
+    }
+
+    .pozeexemple{
+        flex-direction: column;
+    }
+    
+    .code{
+        width: 80%;
+    }
 }
