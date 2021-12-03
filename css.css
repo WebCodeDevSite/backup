@@ -738,7 +738,7 @@ button{
 }
 
 
-@media only screen and (width: 412px) {
+@media only screen and (max-width: 500px) {
     .mainDiv{
         flex-direction: column;
     }    
